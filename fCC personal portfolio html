@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!--nav section-->
+    <nav id="navbar">
+      <ul>
+        <li><a href="#about-me">About me</a></li>
+        <li><a href="https://github.com/fjordan95/freeCodeCamp-landing-page">GitHub</a></li>
+      </ul>
+    </nav>
+
+    <!--welcome section-->
+    <section id="welcome-section">
+      <h1>Welcome to my portfolio!</h1>
+      <p>You can see all my work here which will not only show my progress and development as a developer, but hopefully show my dedication to learning new skills as well.</p>
+    </section>
+
+<!--about me section-->
+    <section id="about-me">
+      <h1>About me</h1>
+      <p>I began looking into web development recently when I decided it was time for a change of career. I have a background in education and am looking to take some of those skills to a new sector. I am beginning with freeCodeCamp.org and am looking forward to gaining as many skills as possible. My current goal is to study full stack web development with a focus on front-end. However, I'm open to pursuing as many paths as possible.</p>
+    </section>
+
+
+    <!--projects section-->
+    <section id="projects">
+      <div class="project-tile">
+        <p><a href="https://github.com/fjordan95/freeCodeCamp-landing-page">Here is a link to my most recent work!</a></p>
+        
+      </div>
+      <div class="work">
+        <p><a target="_blank" href="https://github.com/fjordan95" id="profile-link">Check my GitHub</a></p>
+      </div>
+      <div>
+        <p>New work coming soon!</p>
+    </section>
+    
+    
+  </body>
+</html>
